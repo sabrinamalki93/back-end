@@ -16,11 +16,13 @@ h3{
 
 nav{
     padding: 25px 0;
+    position: fixed;
+    width: 100%;
     color: #3F4B37;
     background-color: #A5AE9D;
 }
 nav ul{
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -59,11 +61,15 @@ div{
     justify-content: space-between;
 }
 footer{
-    margin: 0 auto;
-    margin-top: 250px;
-    padding: 25px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 30px;
+    width: 100%;
+    height: 40px;
     color: #5B413A;
     font-family: 12px;
     background-color: #A5AE9D;
     text-align: center;
+    
 }
